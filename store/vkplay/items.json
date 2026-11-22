@@ -1,0 +1,47 @@
+{
+  "appid": 52011,
+  "items": [
+    {
+      "itemdefid": 1,
+      "type": "item",
+      "name": "500 монет",
+      "name_english": "500 coins",
+      "name_turkish": "500 jeton",
+      "description": "Пакет из 500 монет",
+      "description_english": "A pack of 500 coins",
+      "description_turkish": "500 jetonluk paket",
+      "price": "1;USD126",
+      "marketable": false,
+      "tradable": false,
+      "game_only": true
+    },
+    {
+      "itemdefid": 2,
+      "type": "item",
+      "name": "2000 монет",
+      "name_english": "2000 coins",
+      "name_turkish": "2000 jeton",
+      "description": "Пакет из 2000 монет",
+      "description_english": "A pack of 2000 coins",
+      "description_turkish": "2000 jetonluk paket",
+      "price": "1;USD504",
+      "marketable": false,
+      "tradable": false,
+      "game_only": true
+    },
+    {
+      "itemdefid": 3,
+      "type": "item",
+      "name": "6000 монет",
+      "name_english": "6000 coins",
+      "name_turkish": "6000 jeton",
+      "description": "Пакет из 6000 монет",
+      "description_english": "A pack of 6000 coins",
+      "description_turkish": "6000 jetonluk paket",
+      "price": "1;USD1250",
+      "marketable": false,
+      "tradable": false,
+      "game_only": true
+    }
+  ]
+}

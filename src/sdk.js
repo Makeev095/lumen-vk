@@ -1,8 +1,8 @@
-import { LANGS, setLang } from './i18n.js?v=20261122a';
+import { LANGS, setLang } from './i18n.js?v=20261122b';
 import {
   currencyOf, ensureUser, handshake, inIframe, isVkPlay, loadCloudSave, looksLikeVkPlay,
   pay, userUid, waitForIframeApi, waitForUid, writeCloudSave, VKPLAY_PRICES, VKPLAY_SAVE_URL
-} from './vkplay.js?v=20261122a';
+} from './vkplay.js?v=20261122b';
 
 export const CONFIG = {
   storageKey: 'lumen_vk_save_v1',
@@ -141,7 +141,7 @@ class Platform {
       if (this.vkApi) {
         try { await ensureUser(this.vkApi); } catch (e) { /* ignore */ }
       }
-      const uid = await waitForUid(6000);
+      const uid = await waitForUid(this.vkApi ? 6000 : 250);
       if (uid) {
         try { cloud = await withTimeout(loadCloudSave(uid), 5000); }
         catch (e) { console.warn('[VKPlay] cloud load failed:', e); }

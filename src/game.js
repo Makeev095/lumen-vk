@@ -1,5 +1,5 @@
-import { SDK, CONFIG } from './sdk.js?v=20261122a';
-import { t, pack, langFlag, nextLang, setLang } from './i18n.js?v=20261122a';
+import { SDK, CONFIG } from './sdk.js?v=20261122b';
+import { t, pack, langFlag, nextLang, setLang } from './i18n.js?v=20261122b';
 
 const Engine = window.LumenEngine;
 const startEl = document.getElementById('start');
@@ -579,5 +579,5 @@ setInterval(syncFree, 1000);
   await SDK.loadData();
   if (SDK.data.lang) setLang(SDK.data.lang);
   applyCopy();
-  if (location.search.includes('debug')) window.__lumen = { SDK, Engine, begin, showEnd };
+  if (location.search.includes('debug')) window.__lumen = { SDK, Engine, begin, showEnd, openShop, showStart, applyCopy };
 })();
