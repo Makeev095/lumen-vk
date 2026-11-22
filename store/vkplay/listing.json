@@ -1,0 +1,28 @@
+{
+  "gmrId": 52011,
+  "dashboard": "https://developers.vkplay.ru/dev/games/52011/locales/ru_RU/",
+  "iframe": "https://makeev095.github.io/lumen-vk/",
+  "callback": "https://lumen-vkplay-billing.makey-studio.workers.dev/",
+  "ru": {
+    "name": "Люмен",
+    "altSearch": ["Люмен", "Lumen", "Lümen", "люмен", "ночная оранжерея"],
+    "shortTitle": "Зажги лампу до рассвета",
+    "shortDescription": "Совмещай одинаковые ростки в ночной оранжерее: три гаснут, четыре оставляют луч, пять — светильник. Три ночи, иней на стекле, подсказки и магазин монет. Касание или мышь. Языки: русский, английский и турецкий. Прогресс сохраняется.",
+    "fullDescription": "Ночь под стеклом оранжереи. Меняйте два соседних ростка: три одинаковых сходятся и гаснут, четыре оставляют луч, пять — светильник, угол даёт вспышку.\n\nТри ночи: соберите папоротники, сбейте иней, зажгите лампу до рассвета. Если ходы кончились, можно докупить ещё пять. Подсказка и перемешивание тоже за монеты.\n\nМонеты зарабатываются в игре или покупаются пакетами. Рекламы нет.\n\nУправление: касание или мышь. Языки: русский, английский, турецкий.",
+    "age": "0+",
+    "supportedLanguages": ["Русский", "Английский", "Турецкий"],
+    "support": "https://github.com/Makeev095/lumen-vk/issues"
+  },
+  "en": {
+    "name": "Lumen",
+    "shortTitle": "Light the lamp before dawn",
+    "shortDescription": "Match identical sprouts in a night greenhouse: three fade, four leave a beam, five leave a lamp. Three nights, frost on the glass, hints and a coin shop. Touch or mouse. Languages: Russian, English and Turkish. Progress is saved."
+  },
+  "genresHint": {
+    "main": "Головоломка",
+    "visible": ["Пазл", "Детская", "Аркада"],
+    "tags": ["Головоломка", "Аркада", "Гиперказуалка", "Семейная"],
+    "age": "0+",
+    "marking": "Внутриигровые транзакции"
+  }
+}

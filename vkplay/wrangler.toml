@@ -1,0 +1,7 @@
+name = "lumen-vkplay-billing"
+main = "worker.js"
+compatibility_date = "2026-10-31"
+
+[[kv_namespaces]]
+binding = "PURCHASES"
+id = "71cc60d0085c43e9b89a385f072bca32"
